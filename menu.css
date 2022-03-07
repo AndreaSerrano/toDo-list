@@ -1,0 +1,30 @@
+nav{ 
+    width:100%; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    margin-top: 10px;
+    display: flex;
+    font-size: medium;
+    list-style: none;
+    text-align: center;
+    background-color: #5f49b8;
+    color: white;
+}
+
+nav li{
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: #4b22f4;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
